@@ -1,6 +1,14 @@
 Here's an updated version with the mock authentication details added:
 
 ---
+## Mock Authentication
+
+This project uses mock authentication with the following credentials:
+
+- **Username:** user
+- **Password:** 1234
+
+You can log in using these credentials to access the application features.
 
 # Getting Started with Create React App
 
@@ -43,14 +51,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Mock Authentication
-
-This project uses mock authentication with the following credentials:
-
-- **Username:** user
-- **Password:** 1234
-
-You can log in using these credentials to access the application features.
 
 ## Learn More
 
