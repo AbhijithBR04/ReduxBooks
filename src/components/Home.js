@@ -31,11 +31,11 @@ const Home = () => {
     ); 
   }
 
-  if (sortOption === 'title') {
-    filteredBooks.sort((a, b) => a.title.localeCompare(b.title)); 
-  } else if (sortOption === 'date') {
-    filteredBooks.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded)); 
-  }
+  // if (sortOption === 'title') {
+  //   filteredBooks.sort((a, b) => a.title.localeCompare(b.title)); 
+  // } else if (sortOption === 'date') {
+  //   filteredBooks.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded)); 
+  // }
 
   const handleLogout = () => {
     dispatch(logout());
