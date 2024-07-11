@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "abhi"  && password === "1234") {
+    if (username === "user"  && password === "1234") {
       dispatch(login({ name: username }));
       navigate("/books");
     } else {
