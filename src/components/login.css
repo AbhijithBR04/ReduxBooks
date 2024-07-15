@@ -50,3 +50,10 @@ form {
 .login-button:hover {
   background-color: #4338ca; /* Darker indigo on hover */
 }
+
+.login-info {
+  color: gray;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 10px;
+}
