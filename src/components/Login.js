@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "user"  && password === "1234") {
+    if (username === "user" && password === "1234") {
       dispatch(login({ name: username }));
       navigate("/books");
     } else {
@@ -42,6 +42,7 @@ const Login = () => {
             placeholder="Password"
           />
         </div>
+        <p className="login-info">Username: user, Password: 1234</p>
         <button type="submit" className="login-button">
           LOG IN
         </button>
