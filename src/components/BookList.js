@@ -58,6 +58,7 @@ const BookList = () => {
               </tr>
             ))}
           </tbody>
+          <p>To show all the books in your library,click home</p>
         </table>
       </div>
       <div className="book-form">
